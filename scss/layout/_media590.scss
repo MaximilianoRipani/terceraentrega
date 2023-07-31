@@ -1,0 +1,8 @@
+@media (max-width: 590px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+    .carousel-inner {
+        height: auto;
+    }
+}

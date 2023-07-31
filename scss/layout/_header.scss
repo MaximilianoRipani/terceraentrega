@@ -1,0 +1,21 @@
+header{
+    background-color: $fondo-navbar-footer;
+    text-decoration: none;
+        h1 a{
+    font-family: 'Parisienne' ;
+    @include text-list;
+    font-size: 4.25rem;
+    color: $nombre-pagina;
+        }
+        ul{
+            @include text-list;
+            text-align: right;            
+            flex-direction: row;
+            display: flex;
+            justify-content: end;
+            gap: 1.25rem;
+            background-color: $fondo-navbar-footer;
+            font-size: 2rem;
+            color: $texto-nav;
+        }      
+}
